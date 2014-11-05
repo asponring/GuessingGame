@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Guessing Game</title>
+		<link rel="stylesheet" type="text/css" href="guess.css" media="all">
+
+	</head>
+	
+	<body>
+		<div id="app">
+			<h1>Guess a Letter</h1>
+			<h2></h2>
+			<input id="guess" type="text" maxlength="1" autofocus>
+			<br>
+			<input id="submit" type="button" value="SUBMIT">
+		
+			<h3>Wrong Letters</h3>
+			<h4 id="wrong"></h4>
+			<div id="wrongmeter">
+				<progress id = "indicator" value="0" max="10"></progress>
+			</div>
+			<br>
+			<input id="restart" type="button" value="RESTART">
+		</div>
+		
+		<script defer src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script defer src="../scripts/guess.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+	background-color: #99CCFF;
+	
+}
+
+#app {
+	text-align:center;
+}
+
+#guess {
+	width:40px;
+}
+
+#wrong {
+	font-size: 20px;
+	color: red;
+}
+
+[type = "button"] {
+	width:80px;
+	height:20px;
+}
+
+progress {    /* styling of the progress bar */
+	color:red; /* Internet Explorer 10 and later*/
+	-webkit-appearance: none;  /* override default style */
+}
+progress::-webkit-progress-bar{ /*Chrome safari opera*/
+	background-color:#eeeeee; /* light grey */
+}	
+progress::-webkit-progress-value { /*Chrome safari opera*/
+	background-color:red;
+}
+progress::-moz-progress-bar {   /*Firefox */
+	background-color:red; 
+}
